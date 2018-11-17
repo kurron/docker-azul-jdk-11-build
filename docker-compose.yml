@@ -1,5 +1,5 @@
-azul-jdk-10:
+azul-jdk-11:
     build: .
-    container_name: "azul-jdk-10-build"
+    container_name: "azul-jdk-11-build"
     net: "host"
     command: java -version
