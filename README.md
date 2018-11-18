@@ -1,5 +1,5 @@
 # Overview
-This image is designed to be used by CI/CD systems and developers that need to build JVM projects from within Docker.  The container is designed to not only allow for compilation of JVM projects but also the assembly and deployment of Docker images and containers.  In addition, Ansible is available to orchestrate the tests. If you are looking for something to [run a JVM application, try this](https://github.com/kurron/docker-azul-jdk-9).
+This image is designed to be used by CI/CD systems and developers that need to build JVM projects from within Docker.  The container is designed to not only allow for compilation of JVM projects but also the assembly and deployment of Docker images and containers.  In addition, Ansible is available to orchestrate the tests. If you are looking for something to [run a JVM application, try this](https://github.com/kurron/docker-azul-jdk-11).
 
 # Prerequisites
 * a working [Docker](http://docker.io) engine
