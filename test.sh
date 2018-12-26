@@ -29,6 +29,6 @@ CMD="docker run --hostname inside-docker \
                 --volume /etc/passwd:/etc/passwd \
                 --volume /etc/group:/etc/group \
                 --workdir $(pwd) \
-                docker-azul-jdk-11-build_azul-jdk-11:latest $*"
+                kurron/docker-azul-jdk-11-build:latest $*"
 echo $CMD
 $CMD
